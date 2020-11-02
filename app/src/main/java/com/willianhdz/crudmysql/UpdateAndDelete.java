@@ -258,7 +258,7 @@ public class UpdateAndDelete extends Fragment {
 
         //Conexion desde el servidor remoto
         String ip=getString(R.string.ip);
-        String url=ip+"/webservice/eliminar_categoria.php?id_categoria="+et_idcategoria.getText().toString();;
+        String url=ip+"/webservice/eliminar_categoria.php?id_categoria="+et_idcategoria.getText().toString();
 
         //Para conexion local
         //String url = "http://192.168.108.2/service2020/eliminar_categoria.php?id_categoria="+et_idcategoria.getText().toString();
